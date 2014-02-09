@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4857
+
+The scripts maps the ² key (which can be changed according to the needs) to a pop-up console menu displaying all glyphs in the Unicode range 2336-237a for quickly inserting them.
