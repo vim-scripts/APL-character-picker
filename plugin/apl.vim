@@ -1,8 +1,8 @@
 " Vim support file to define an APL menus
 "
 " Maintainer:	Thomas Baruchel <baruchel@gmx.com>
-" Last Change:	2014 Feb 09
-" Version:      1.0
+" Last Change:	2014 Feb 14
+" Version:      1.1
 
 " Copyright (c) 2014 Thomas Baruchel
 "
@@ -28,6 +28,8 @@
 " <CR> would not be recognized.  See ":help 'cpoptions'".
 let s:cpo_save = &cpo
 set cpo&vim
+
+set wildmenu
 
 " Avoid installing the menus twice
 if !exists("did_install_apl_menu")
